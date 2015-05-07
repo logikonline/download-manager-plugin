@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Xam.Plugin.DownloadManager.Abstractions;
+using Xamarin.Forms;
 
+[assembly: Dependency(typeof(Xam.Plugin.DownloadManager.Droid.DownloadManager))]
 namespace Xam.Plugin.DownloadManager.Droid
 {
     public class DownloadManager : IDownloadManager

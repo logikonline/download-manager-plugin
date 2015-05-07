@@ -9,7 +9,9 @@ using Windows.Networking.BackgroundTransfer;
 using Windows.Storage;
 using Windows.UI.Popups;
 using Xam.Plugin.DownloadManager.Abstractions;
+using Xamarin.Forms;
 
+[assembly: Dependency(typeof(Xam.Plugin.DownloadManager.WinPhone.DownloadManager))]
 namespace Xam.Plugin.DownloadManager.WinPhone
 {
     public class DownloadManager : IDownloadManager
@@ -140,7 +142,7 @@ namespace Xam.Plugin.DownloadManager.WinPhone
 
             }
 
-            
+
         }
     }
 }

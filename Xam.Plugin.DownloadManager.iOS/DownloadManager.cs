@@ -6,7 +6,9 @@ using System.Net;
 using System.Text;
 using UIKit;
 using Xam.Plugin.DownloadManager.Abstractions;
+using Xamarin.Forms;
 
+[assembly: Dependency(typeof(Xam.Plugin.DownloadManager.iOS.DownloadManager))]
 namespace Xam.Plugin.DownloadManager.iOS
 {
     public class DownloadManager : IDownloadManager
