@@ -13,7 +13,9 @@ namespace Xam.Plugin.DownloadManager.iOS
 {
     public class DownloadManager : IDownloadManager
     {
-
+        public static void Init()
+        {
+        }
         /// <summary>
         /// Use WebClient to do Download. Send Alert to user know its done
         /// </summary>

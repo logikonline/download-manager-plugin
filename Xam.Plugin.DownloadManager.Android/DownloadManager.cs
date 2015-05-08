@@ -10,7 +10,9 @@ namespace Xam.Plugin.DownloadManager.Droid
 {
     public class DownloadManager : IDownloadManager
     {
-
+        public static void Init()
+        {
+        }
         /// <summary>
         /// Use DownloadManager of Android to Download. User Can se status on Action Bar
         /// </summary>

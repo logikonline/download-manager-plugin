@@ -19,6 +19,9 @@ namespace Xam.Plugin.DownloadManager.WinPhone
 
         private CancellationTokenSource cts;
 
+        public static void Init()
+        {
+        }
         public DownloadManager()
         {
             cts = new CancellationTokenSource();
